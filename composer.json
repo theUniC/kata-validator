@@ -1,14 +1,8 @@
 {
-    "name": "csoronellas/kata-validator",
+    "name": "theUniC/kata-validator",
     "require-dev": {
         "phpspec/phpspec": "2.0.*@dev"
     },
-    "authors": [
-        {
-            "name": "Christian",
-            "email": "csoronellas@emagister.com"
-        }
-    ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
