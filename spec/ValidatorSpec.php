@@ -44,6 +44,11 @@ class ValidatorSpec extends ObjectBehavior
         $this->isValid(23, 'I', 3)->shouldBe(false);
     }
 
+    public function it_should_apply_the_length_validation_only_when_an_integer_is_passed_as_a_third_parameter()
+    {
+        $this->isValid('aaaaaaaa', 'S', 0)->shouldBe(false);
+    }
+
     public function getMatchers()
     {
         return [
